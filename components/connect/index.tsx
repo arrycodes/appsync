@@ -1,5 +1,6 @@
 import styles from '../../app/page.module.css'
 import { BCon } from './wallet'
+import NetworkButton from "./select"
 
 
 const Connect = () => {
@@ -10,14 +11,7 @@ const Connect = () => {
 
         <div className={styles.connect}>
 <BCon />
-<select>
-<option> Select Chain </option>
-<option> Ethereum </option>
-<option> BSC </option>
-<option> Poloygon </option>
-<option> Avalnache </option>
-<option> Fantom </option>
-</select>
+<NetworkButton />
         </div>
     )
 }

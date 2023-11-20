@@ -1,9 +1,16 @@
-{
-    "sync": [
-        {"mesaage":"welcome", "title":"migration"},
-        {"mesaage":"welcome", "title":"migration"},
-        {"mesaage":"welcome", "title":"migration"},
-        {"mesaage":"welcome", "title":"migration"},
-        {"mesaage":"welcome", "title":"migration"}
+
+
+ [
+        {"message":"welcome", "title":"migration"},
+        {"message":"For in-depth Rectification Info Click Here.", "title":"Rectification"},
+        {"message":"Find All Slippage Error Here", "title":"Slippage"},
+        {"message":"Contract Deployment Setup and Debugging", "title":"Deployment"},
+        {"message":"welcome", "title":"migration"},
+        {"message":"welcome", "title":"migration"},
+        {"message":"For in-depth Rectification Info Click Here.", "title":"Rectification"},
+        {"message":"Find All Slippage Error Here", "title":"Slippage"},
+        {"message":"Contract Deployment Setup and Debugging", "title":"Deployment"},
+        {"message":"welcome", "title":"migration"},
+        {"message":"Find All Slippage Error Here", "title":"Slippage"},
+        {"message":"Find All Slippage Error Here", "title":"Slippage"}
     ]
-}

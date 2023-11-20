@@ -6,7 +6,7 @@ import { WagmiConfig } from 'wagmi'
 
 import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react'
 
-import { arbitrum, mainnet, bsc, polygon } from 'viem/chains'
+import { arbitrum, mainnet, bsc, polygon, fantom, avalanche } from 'viem/chains'
 
 // 1. Get projectId
 export const projectId = '56de852a69580b46d61b53f7b3922ce1'
@@ -20,7 +20,7 @@ const metadata = {
 }
 
 
-export const chains = [mainnet, arbitrum, bsc, polygon]
+export const chains = [mainnet, arbitrum, bsc, polygon, fantom, avalanche]
 export const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata })
 
 createWeb3Modal({ wagmiConfig, projectId, chains })
